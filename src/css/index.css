@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  background-color: rgb(215, 215, 215);
+}
+
+.abnb-logo {
+  margin-left: 30px;
+  width: 83px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.App {
+  width: 550px;
+  height: 860px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.Heder {
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  background: #ffffff;
+  vertical-align: middle;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.ImageSec {
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+}
+
+.first {
+  margin-top: 75px;
+}
+
+.second {
+  margin-top: 34px;
+}
+
+.third {
+  margin-top: 56px;
+}
+
+.fourth {
+  margin-top: 26px;
+}
+
+.fifth {
+  margin-top: 44px;
+}
+
+.texts {
+  font-family: "Poppins";
+  margin-left: 36px;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 110%;
+  margin-top: 32px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.text {
+  position: relative;
+  width: 320px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  color: #222222;
+}
+
+/* div > img {
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+} */
+
+.cardSection {
+  margin-left: 37px;
+  display: flex;
+  scrollbar-width: none; 
+  gap: 18px;
+  overflow-y: scroll;
+}
+
+
+
+.cardTitle {
+  margin-top: 8px;
+  margin-bottom: 3px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+}
+
+
+
+.star {
+  width: 12px;
+  height: 12px;
+  display: inline;
+}
+
+.rating,
+.rating-num {
+  margin-left: 5px;
+  display: inline;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 50%;
+  color: #222222;
+}
+
+.rating-num {
+  color: #918e9b;
+}
+
+.dot {
+  display: inline;
+  margin-left: 4px;
+  color: #918e9b;
+}
+
+.country {
+  display: inline;
+  margin-left: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #918e9b;
+}
+
+.price {
+  display: inline;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+  /* margin-top: 10px; */
+  color: #222222;
+}
+
+.prsn {
+  display: inline;
+  margin-left: 5px;
+  font-size: 12px;
+  font-family: "Poppins";
+  color: #222222;
+}
+
+.cardSection::-webkit-scrollbar {
+  display: none;
+}
+
+.crdimg{
+  margin-top: 49px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.cardImages {
+  position: relative;
+  top:0;
+  left: 0;
+  width: 176px;
+}
+
+.tag {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 3px;
+  top: 8px;
+  margin-left: 5px;
+  width:fit-content;
+  height: 11.55px;
+  font-family: "Poppins";
+  font-size: 10.24px;
+  line-height: 110%;
+}
